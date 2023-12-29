@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body{
+    background: #F9F9F9;
+}
+.header-container {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.left-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-menu i {
+    margin-left: 24px;
+    font-size: 24px;
+    margin-right: 32px;
+}
+
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-wrapper {
+    width: 350px;
+    height: 40px;
+    padding: 10px 200px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 25px;
+    border: 1px solid #c4c4c4;
+
+}
+
+.input-wrapper i {
+    font-size: 18px;
+}
+
+.input-wrapper input {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+}
+
+.input-wrapper input:focus-visible {
+    outline: none;
+}
+
+.mic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background: #f2f2f2;
+    width: 40px;
+    height: 40px;
+    margin-left: 16px;
+}
+
+.mic i {
+    color: #000;
+    font-size: 28px;
+}
+
+.right-container i {
+    font-size: 28px;
+    margin-right: 24px;
+}
+
+main {
+    margin: 28px 413px 0 75px;
+}
+
+.video-area {
+    width: 952px;
+    height: 537px;
+}
+
+.content-area {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+
+    width: 952px;
+    height: 209px;
+}
+
+.video-name {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.video-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 902px;
+    height: 42px;
+
+    gap: 42px;
+    font-weight: 600;
+}
+
+.channel-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.subs {
+    display: flex;
+    flex-direction: column;
+}
+
+.channel-info .name {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.channel-info .details {
+    color: #515151;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+}
+
+button {
+    width: 159px;
+    height: 40px;
+
+    border-radius: 2px;
+    background: #C00;
+    border: none;
+
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.video-actions i {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.video-actions span {
+    font-size: 14px;
+}
+
+.infos p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.description {
+    width: 510px;
+}
+
+.description p {
+    font-size: 14px;
+    font-weight: 400;
+}

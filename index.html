@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox DIO - YouTube</title>
+
+    <title>Gridbox DIO - YouTube</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
@@ -44,153 +45,220 @@
     </header>
 
     <main>
-        <div class="video-container">
-            <section class="video-area">
-                <iframe width="952" height="537" src="https://www.youtube.com/embed/wh9QLjk3M2k?si=odukOw6pEbvC1T5u"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-            </section> <!-- video-area -->
-            <section class="content-area">
-                <p class="video-name">Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com
-                    HTML e CSS</p>
-                <div class="video-actions">
-                    <div class="channel-info">
-                        <img src="src/image/Channel Avatar.png">
-                        <div class="subs">
-                            <p class="name">DIO</p>
-                            <p class="details">83,3 mil inscritos</p>
-                        </div> <!-- subs -->
-                    </div> <!-- channel-info -->
-                    <button>INSCREVA-SE</button>
-                    <div class="like">
-                        <i class="uil uil-thumbs-up"></i>
-                        <span>2 mil</span>
+        <aside>
+            <nav>
+                <ul>
+                    <li><i class="uil uil-estate"></i> Início</li>
+                    <li><img src="src/image/youtube-shorts-logo-15253.svg">Shorts</li>
+                    <li><img src="src/image/incriptions.svg" alt=""> Incrições</li>
+                    <hr>
+                    <li><img src="src/image/video-library.svg" alt=""> Biblioteca</li>
+                    <li><i class="uil uil-history"></i> Histórico</li>
+                    <li><img src="src/image/your-videos.svg" alt=""> Seus Vídeos</li>
+                    <li><i class="uil uil-clock"></i> Assistir mais tarde</li>
+                    <li><i class="uil uil-thumbs-up"></i> Vídeos que gostei</li>
+                    <li><i class="uil uil-angle-down"></i> Mostar mais</li>
+                    <hr>
+                    <li>
+                        <h2>Inscrições</h2>
+                    </li>
+                    <li><img src="src/image/dio_me.jpg" class="channel-icon"> DIO</li>
+                    <li><img src="src/image/dio_me.jpg" class="channel-icon"> DIO</li>
+                    <li><img src="src/image/dio_me.jpg" class="channel-icon"> DIO</li>
+                    <li><img src="src/image/dio_me.jpg" class="channel-icon"> DIO</li>
+                    <li><img src="src/image/dio_me.jpg" class="channel-icon"> DIO</li>
+                    <li><img src="src/image/dio_me.jpg" class="channel-icon"> DIO</li>
+                    <li><img src="src/image/dio_me.jpg" class="channel-icon"> DIO</li>
+                    <li><img src="src/image/dio_me.jpg" class="channel-icon"> DIO</li>
+                    <hr>
+                    <li>
+                        <h2>Explorar</h2>
+                    </li>
+                    <li><i class="uil uil-fire"></i> Em alta</li>
+                    <li><i class="uil uil-shopping-bag"></i> Shopping</li>
+                    <li><i class="uil uil-music-note"></i> Música</li>
+                    <li><i class="uil uil-film"></i> Filmes</li>
+                    <li><img src="src/image/live.svg" alt=""> Ao vivo</li>
+                    <li><img src="src/image/game.svg" alt=""> Jogos</li>
+                    <li><i class="uil uil-newspaper"></i> Notícias</li>
+                    <li><i class="uil uil-trophy"></i> Esportes</li>
+                    <li><i class="uil uil-book"></i> Aprender</li>
+                    <li><i class="uil uil-microphone"></i> Podcasts</li>
+                    <li><i class="uil uil-star"></i> Sala de jogos</li>
+                </ul>
+            </nav>
+        </aside>
+        <div id="video-container">
+            <div class="video-card">
+                <a href="video.html"><img width="250px" src="src/image/01.png"></a>
+                <div class="information">
+                    <div class="channel-title">
+                        <img width="42px" src="src/image/dio_me.jpg" class="channel-icon">
+                        <p>Geração Tech Unimed - BH - Ciência de Dados</p>
                     </div>
-                    <div class="unlike">
-                        <i class="uil uil-thumbs-down"></i>
-                        <span>Não gostei</span>
+                    <div class="views">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
                     </div>
-                    <div class="share">
-                        <i class="uil uil-share"></i>
-                        <span>Compartilhar</span>
+                </div>
+            </div>
+            <div class="video-card">
+                <a href="video.html"><img width="250px" src="src/image/01.png"></a>
+                <div class="information">
+                    <div class="channel-title">
+                        <img width="42px" src="src/image/dio_me.jpg" class="channel-icon">
+                        <p>Geração Tech Unimed - BH - Ciência de Dados</p>
                     </div>
-                    <div class="download">
-                        <i class="uil uil-import"></i>
-                        <span>Download</span>
+                    <div class="views">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
                     </div>
-                </div> <!-- video-actions -->
-                <div class="infos">
-                    <p>28.418 visualizações Transmitido ao vivo em 23 ago. de 2022</p>
-                </div> <!-- infos -->
-                <div class="description">
-                    <p>Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma
-                        landing page com a temática da série Stranger Things, a qual contará com a implementação de um
-                        theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
-                </div> <!-- description -->
-            </section> <!-- content-area-area -->
-        </div> <!-- video-container -->
-
-        <div class="sidebar">
-            <div class="side-video">
-                <img src="src/image/01.png">
-                <div class="side-infos">
-                    <p class="title">Geração Tech Unimed - BH - Ciência de Dados</p>
-                    <p class="name-ch">DigitalInnovationOne</p>
-                    <div class="side-info-video"></div>
-                    <p class="views">2,1 mil visualizações</p>
-                    <p class="time">Transmitido há 2 dias</p>
-                </div> <!-- side-infos -->
-            </div> <!-- side-video -->
-
-            <div class="side-video">
-                <img src="src/image/02.png">
-                <div class="side-infos">
-                    <p class="title">Scrum Talks</p>
-                    <p class="name-ch">DigitalInnovationOne</p>
-                    <div class="side-info-video"></div>
-                    <p class="views">1,6 mil visualizações</p>
-                    <p class="time">Transmitido há 3 dias</p>
-                </div> <!-- side-infos -->
-            </div> <!-- side-video -->
-
-            <div class="side-video">
-                <img src="src/image/03.png">
-                <div class="side-infos">
-                    <p class="title">Machine Learning Avançado - Fast Track</p>
-                    <p class="name-ch">DigitalInnovationOne</p>
-                    <div class="side-info-video"></div>
-                    <p class="views">1,7 mil visualizações</p>
-                    <p class="time">Transmitido há 4 dias</p>
-                </div> <!-- side-infos -->
-            </div> <!-- side-video -->
-
-            <div class="side-video">
-                <img src="src/image/04.png">
-                <div class="side-infos">
-                    <p class="title">Global Skills #2 - Project Planning</p>
-                    <p class="name-ch">DigitalInnovationOne</p>
-                    <div class="side-info-video"></div>
-                    <p class="views">971 visualizações</p>
-                    <p class="time">Transmitido há 5 dias</p>
-                </div> <!-- side-infos -->
-            </div> <!-- side-video -->
-
-            <div class="side-video">
-                <img src="src/image/05.png">
-                <div class="side-infos">
-                    <p class="title">Como aprender a programar Python do ZERO</p>
-                    <p class="name-ch">DigitalInnovationOne</p>
-                    <div class="side-info-video"></div>
-                    <p class="views">711 visualizações</p>
-                    <p class="time">Transmitido há 6 dias</p>
-                </div> <!-- side-infos -->
-            </div> <!-- side-video -->
-
-            <div class="side-video">
-                <img src="src/image/01.png">
-                <div class="side-infos">
-                    <p class="title">Geração Tech Unimed - BH - Ciência de Dados</p>
-                    <p class="name-ch">DigitalInnovationOne</p>
-                    <div class="side-info-video"></div>
-                    <p class="views">2,1 mil visualizações</p>
-                    <p class="time">Transmitido há 2 dias</p>
-                </div> <!-- side-infos -->
-            </div> <!-- side-video -->
-
-            <div class="side-video">
-                <img src="src/image/02.png">
-                <div class="side-infos">
-                    <p class="title">Scrum Talks</p>
-                    <p class="name-ch">DigitalInnovationOne</p>
-                    <div class="side-info-video"></div>
-                    <p class="views">1,6 mil visualizações</p>
-                    <p class="time">Transmitido há 3 dias</p>
-                </div> <!-- side-infos -->
-            </div> <!-- side-video -->
-
-            <div class="side-video">
-                <img src="src/image/03.png">
-                <div class="side-infos">
-                    <p class="title">Machine Learning Avançado - Fast Track</p>
-                    <p class="name-ch">DigitalInnovationOne</p>
-                    <div class="side-info-video"></div>
-                    <p class="views">1,7 mil visualizações</p>
-                    <p class="time">Transmitido há 4 dias</p>
-                </div> <!-- side-infos -->
-            </div> <!-- side-video -->
-
-            <div class="side-video">
-                <img src="src/image/04.png">
-                <div class="side-infos">
-                    <p class="title">Global Skills #2 - Project Planning</p>
-                    <p class="name-ch">DigitalInnovationOne</p>
-                    <div class="side-info-video"></div>
-                    <p class="views">971 visualizações</p>
-                    <p class="time">Transmitido há 5 dias</p>
-                </div> <!-- side-infos -->
-            </div> <!-- side-video -->
-        </div> <!-- sidebar -->
+                </div>
+            </div>
+            <div class="video-card">
+                <a href="video.html"><img width="250px" src="src/image/01.png"></a>
+                <div class="information">
+                    <div class="channel-title">
+                        <img width="42px" src="src/image/dio_me.jpg" class="channel-icon">
+                        <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                    </div>
+                    <div class="views">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <a href="video.html"><img width="250px" src="src/image/01.png"></a>
+                <div class="information">
+                    <div class="channel-title">
+                        <img width="42px" src="src/image/dio_me.jpg" class="channel-icon">
+                        <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                    </div>
+                    <div class="views">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <a href="video.html"><img width="250px" src="src/image/01.png"></a>
+                <div class="information">
+                    <div class="channel-title">
+                        <img width="42px" src="src/image/dio_me.jpg" class="channel-icon">
+                        <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                    </div>
+                    <div class="views">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <a href="video.html"><img width="250px" src="src/image/01.png"></a>
+                <div class="information">
+                    <div class="channel-title">
+                        <img width="42px" src="src/image/dio_me.jpg" class="channel-icon">
+                        <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                    </div>
+                    <div class="views">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <a href="video.html"><img width="250px" src="src/image/01.png"></a>
+                <div class="information">
+                    <div class="channel-title">
+                        <img width="42px" src="src/image/dio_me.jpg" class="channel-icon">
+                        <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                    </div>
+                    <div class="views">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <a href="video.html"><img width="250px" src="src/image/01.png"></a>
+                <div class="information">
+                    <div class="channel-title">
+                        <img width="42px" src="src/image/dio_me.jpg" class="channel-icon">
+                        <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                    </div>
+                    <div class="views">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <a href="video.html"><img width="250px" src="src/image/01.png"></a>
+                <div class="information">
+                    <div class="channel-title">
+                        <img width="42px" src="src/image/dio_me.jpg" class="channel-icon">
+                        <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                    </div>
+                    <div class="views">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <a href="video.html"><img width="250px" src="src/image/01.png"></a>
+                <div class="information">
+                    <div class="channel-title">
+                        <img width="42px" src="src/image/dio_me.jpg" class="channel-icon">
+                        <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                    </div>
+                    <div class="views">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <a href="video.html"><img width="250px" src="src/image/01.png"></a>
+                <div class="information">
+                    <div class="channel-title">
+                        <img width="42px" src="src/image/dio_me.jpg" class="channel-icon">
+                        <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                    </div>
+                    <div class="views">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <a href="video.html"><img width="250px" src="src/image/01.png"></a>
+                <div class="information">
+                    <div class="channel-title">
+                        <img width="42px" src="src/image/dio_me.jpg" class="channel-icon">
+                        <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                    </div>
+                    <div class="views">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <a href="video.html"><img width="250px" src="src/image/01.png"></a>
+                <div class="information">
+                    <div class="channel-title">
+                        <img width="42px" src="src/image/dio_me.jpg" class="channel-icon">
+                        <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                    </div>
+                    <div class="views">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 
